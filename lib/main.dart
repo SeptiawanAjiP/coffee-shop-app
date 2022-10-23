@@ -1,3 +1,4 @@
+import 'package:coffee_shop_youtube/home_page.dart';
 import 'package:coffee_shop_youtube/login_google_page.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginGooglePage(),
+      home: HomePage(),
     );
   }
 }
