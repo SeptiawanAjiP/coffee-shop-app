@@ -1,3 +1,4 @@
+import 'package:coffee_shop_youtube/detail_page.dart';
 import 'package:coffee_shop_youtube/home_page.dart';
 import 'package:coffee_shop_youtube/login_google_page.dart';
 import 'package:flutter/material.dart';
@@ -12,8 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomePage(),
-    );
+        debugShowCheckedModeBanner: false,
+        home: DetailPage(),
+        theme: ThemeData(
+            brightness: Brightness.light, primarySwatch: Colors.amber));
   }
 }
